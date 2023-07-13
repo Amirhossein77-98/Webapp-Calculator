@@ -11,6 +11,10 @@ lastRowEl.innerHTML += "<button id='comma' value='.' onClick='inputDot()'>.</but
 lastRowEl.innerHTML += "<button id='num0' value='0' onClick='inputNum(this.value)'>0</button>"
 lastRowEl.innerHTML += "<button id='result' value='=' onClick='operator(this.value)'>=</button>"
 
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    inputFieldEl.readOnly = true
+}
+
 function inputNum(value) {
     inputFieldEl.value += value
 }
