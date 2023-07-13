@@ -134,3 +134,13 @@ button:active {
 #last-row #result:active {
     background-color: rgb(199, 180, 180)
 }
+
+@media only screen and (max-width: 600px) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 400px) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
