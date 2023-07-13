@@ -12,7 +12,7 @@ lastRowEl.innerHTML += "<button id='num0' value='0' onClick='inputNum(this.value
 lastRowEl.innerHTML += "<button id='result' value='=' onClick='operator(this.value)'>=</button>"
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    inputFieldEl.readOnly = true
+    inputFieldEl.setAttribute("readonly", "readonly")
 }
 
 function inputNum(value) {
