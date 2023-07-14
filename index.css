@@ -128,19 +128,23 @@ button:active {
 }
 
 #last-row #result:hover {
-    background-color: rgb(223, 212, 212)
+    background-color: rgb(223, 212, 212);
 }
 
 #last-row #result:active {
-    background-color: rgb(199, 180, 180)
+    background-color: rgb(199, 180, 180);
 }
 
 @media only screen and (max-width: 600px) {
-    padding-left: 15px;
-    padding-right: 15px;
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
-    padding-left: 15px;
-    padding-right: 15px;
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
