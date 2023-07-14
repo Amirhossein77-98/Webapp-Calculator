@@ -140,11 +140,25 @@ button:active {
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    #operators-btn {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        /* margin-right: 10px; */
+    }
 }
 
 @media only screen and (max-width: 400px) {
     body {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    #operators-btn {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        /* margin-right: 10px; */
     }
 }
